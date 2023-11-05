@@ -33,6 +33,10 @@ void draw(){
       bulletList.remove(aBullet);
     }
   }
+  
+  textSize(32);
+  fill(255, 255, 255);
+  text("CONTROLS \n A/D to move left/right \n SPACE to shoot", 10, 30);
 }
 
 void keyPressed() {
