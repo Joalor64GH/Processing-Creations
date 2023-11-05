@@ -13,8 +13,6 @@ void draw(){
   
   p1.render();
   p1.move();
-  p1.upwards();
-  p1.downwards();
   
   textSize(32);
   fill(255, 255, 255);

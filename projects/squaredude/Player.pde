@@ -40,17 +40,13 @@ class Player {
     if(isMovingRight == true) {
       x += speed;
     }
-  }
-  
-  void upwards() {
+    
     if (isMovingUp == true) {
       y -=speed;
     }
-  }
-  
-  void downwards() {
+    
     if (isMovingDown == true) {
       y += speed;
     }
-  }    
+  }  
 }
