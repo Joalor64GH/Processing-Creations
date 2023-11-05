@@ -26,7 +26,7 @@ void draw(){
   }
   
   // removes unwanted bullets
-  for (int i = bulletList.size()-1; i >=0; i=i-1) {
+  for (int i = bulletList.size() - 1; i >= 0; i = i - 1) {
     Bullet aBullet = bulletList.get(i);
     
     if (aBullet.shouldRemove == true) {
